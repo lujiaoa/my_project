@@ -1,0 +1,38 @@
+/* 最上边的导航条 */
+.header-wrapper{
+  background-color: rgb(243,243,243);
+  width: 100%;
+  height: 40px;
+}
+.header-wrapper>.top-wrapper{
+  /* background-color: rgb(243,243,243); */
+  width: 1200px;
+  margin: auto;
+  line-height: 40px;
+}
+.top-l{
+  float: left;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.top-l a{
+  text-decoration: none;
+  color: rgb(237,71,6);
+}
+.top-r{
+  float: right;
+}
+.top-r ul{
+  width: 335px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.top-r ul li:first-child span{
+  color: rgb(237,71,6);
+}
+.top-r ul li a{
+  text-decoration: none;
+  color: rgb(51,51,51);
+}
