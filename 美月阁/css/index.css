@@ -50,9 +50,14 @@
   z-index: 10;
 }
 /* 工具条 */
+.top-logo-wrapper{
+  padding: 20px 0;
+}
 .top-logo-wrapper>.logo-wrapper{
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 0; */
 }
 .top-logo-wrapper>.logo-wrapper>a{
   display: block;
@@ -65,4 +70,66 @@
   width: 418px;
   height: 38px;
 }
-
+.top-logo-wrapper>.logo-wrapper>div>.shop-btn{
+  width: 80px;
+  height: 40px;
+  outline: 0;
+  border: 0;
+  background-color: rgb(237,20,117);
+  font-size: 16px;
+  color: #fff;
+  vertical-align: bottom;
+}
+.search-txt{
+  /* display: none; */
+  color: rgb(227,25,57);
+}
+.search-txt>span{
+  /* margin-right: 10px; */
+  padding: 13px;
+}
+.search-txt>:nth-child(2){
+  color: rgb(51,51,51);
+}
+.search-shop {
+color: #fff;
+background-color: #ed1475;
+/* background-color: #FFFFFF; */
+width: 120px;
+display: flex;
+justify-content: center;
+}
+.search-shop i{
+  margin-top: 10px;
+  font-size:18px;
+}
+.search-shop>p{
+  padding: 7px;
+  font-size: 18px;
+}
+/* 让整个搜索框的div固定在最顶部 */
+.search-div{
+  position: fixed !important;
+  top: -20px;
+  width: 100%;
+  box-shadow: 0 1px 6px 0 #ccc;
+  transition: all 0.5s ease;
+  z-index: 999;
+  height: auto !important;
+  background-color: #fff;
+  
+}
+/* nav */
+.nav-wrapper>.nav-ul{
+  width: 1200px;
+  margin: auto;
+}
+.nav-ul>ul{
+  width: 460px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-ul{
+  float: right;
+}
