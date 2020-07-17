@@ -6,8 +6,6 @@
 }
 .header-wrapper>.top-wrapper{
   /* background-color: rgb(243,243,243); */
-  width: 1200px;
-  margin: auto;
   line-height: 40px;
 }
 .top-l{
@@ -36,3 +34,35 @@
   text-decoration: none;
   color: rgb(51,51,51);
 }
+.top-r>ul>li:last-child{
+  position: relative;
+}
+.top-r>ul>li:last-child>div{
+  display: none;
+  flex-direction: column ;
+  position: absolute;
+  width: 345px;
+  height: 342px;
+  right: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 10;
+}
+/* 工具条 */
+.top-logo-wrapper>.logo-wrapper{
+  display: flex;
+  align-items: flex-end;
+}
+.top-logo-wrapper>.logo-wrapper>a{
+  display: block;
+}
+.top-logo-wrapper>.logo-wrapper>a>img{
+  vertical-align: bottom;
+}
+.top-logo-wrapper>.logo-wrapper>div>.inp{
+  border: 1px solid rgb(237,20,117) ;
+  width: 418px;
+  height: 38px;
+}
+
