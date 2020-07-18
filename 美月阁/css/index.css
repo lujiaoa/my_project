@@ -5,8 +5,8 @@
   height: 40px;
 }
 .header-wrapper>.top-wrapper{
-  /* background-color: rgb(243,243,243); */
   line-height: 40px;
+
 }
 .top-l{
   float: left;
@@ -19,7 +19,7 @@
   color: rgb(237,71,6);
 }
 .top-r{
-  float: right;
+  float: right;  
 }
 .top-r ul{
   width: 335px;
@@ -113,23 +113,46 @@ justify-content: center;
   top: -20px;
   width: 100%;
   box-shadow: 0 1px 6px 0 #ccc;
-  transition: all 0.5s ease;
   z-index: 999;
-  height: auto !important;
   background-color: #fff;
+  animation: search 0.3s linear;
   
 }
-/* nav */
-.nav-wrapper>.nav-ul{
-  width: 1200px;
-  margin: auto;
+@keyframes search{
+  0%{padding: 20px 0;}
+  100%{padding:10px 0;}
 }
-.nav-ul>ul{
-  width: 460px;
+/* nav */
+.nav-wrapper{
+  width: 100%;
+  height: 45px;
+  /* position: relative; */
+  margin-top: 126px;
+  background-color: rgb(245,245,245);
+}
+.nav-wrapper>.nav-ul{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.nav-wrapper>.nav-ul>ul{
   list-style: none;
   display: flex;
   justify-content: space-around;
+  width: 450px;
+  padding: 10px;
+  font-size: 16px;
 }
-.nav-ul{
-  float: right;
+.nav-wrapper>.nav-ul>ul a{
+  text-decoration: none;
+  color: #222;
+}
+.nav-wrapper>.nav-ul>span{
+  font-size: 25px;
+  color: #ed1475;
+  font-weight: 800 ;
+  align-self: center;
+}
+/* 只有一张图片的banner */
+.ban-img{
 }
