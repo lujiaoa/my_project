@@ -1,4 +1,5 @@
 /* 最上边的导航条 */
+
 .header-wrapper{
   background-color: rgb(243,243,243);
   width: 100%;
@@ -153,6 +154,143 @@ justify-content: center;
   font-weight: 800 ;
   align-self: center;
 }
-/* 只有一张图片的banner */
+/* 图片区域 */
 .ban-img{
+  width: 1349px;
 }
+.ban-img img{
+  max-width: 100%;
+}
+.content-wrapper{
+  background-color: rgb(242,242,242);
+  margin-top: -4px;
+}
+
+.ico{
+  background: url(../images/ico.png)no-repeat 0px 0px;
+    display: inline-block;
+    vertical-align:bottom;
+}
+.ico.core{
+  width: 25px;
+    height: 25px;
+    background-position: -137px -3px;
+    margin: 0 5px 0 0
+}
+.conTxt-wrapper{
+  padding-top: 40px;
+}
+.conTxt>i,.conTxt>h2{
+  float: left;
+  display: inline-block;
+}
+.conData-wra-wrapper{
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+.conData-wrapper{
+ width: 3600px;
+}
+/* 为了让div——banner移动 */
+.conData-wrapper>:first-child{
+  /* margin-left: -1200px; */
+}
+
+.conData{
+  float: left;
+  transition: all 0.5s linear;
+}
+.conData>ul{
+  list-style: none;
+}
+.conData>ul>li{
+  background-color: #fff;
+  float: left;
+  width: 239px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px;
+  margin: 0 0 0 21px;
+  position: relative;
+  height: 297px;
+}
+.conData>ul>li>.imgbox{
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+}
+.contData-img>p{
+  text-align: center;
+  margin-top: 10px;
+}
+.contData-img>span{
+  font-size: 18px;
+  display: inline-block;
+  width: 239px;
+  text-align: center;
+  color: #ed1475;
+  margin-top: 10px;
+}
+.imgbox>img{
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+.contData-img>div{
+  display: none;
+  position: absolute;
+  width: 279px;
+  height: 337px;
+  top: 0;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+}
+.contData-img>div>p{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 150px;
+}
+.contData-img>div>a{
+  text-decoration: none;
+  display: block;
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ed1475;
+  color: #fff;
+  margin: 20px  auto 0;
+}
+
+/* 切换按钮 */
+.conData-btn-wrapper{
+  position: relative;
+  height: 50px;
+}
+.conData-btn{
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+}
+.conData-btn>li{
+  float: left;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  margin: 0 5px;
+  background-color: #ddd;
+
+}
+.conData-btn>li.active{
+  background-color: #ed1475;
+}
+/* .conData-btn>li:hover{
+  background-color: #ed1475;
+} */

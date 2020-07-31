@@ -5,6 +5,7 @@
 body{
   font-family: 微软雅黑, Arial;
   font-size: 14px;
+  color: #333;
 }
 .clearfix:after{
   content: "";
@@ -14,4 +15,8 @@ body{
 .w{
   width: 1200px;
   margin: auto;
+}
+a{
+  text-decoration: none;
+  color: #222;
 }
