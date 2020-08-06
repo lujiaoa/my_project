@@ -21,3 +21,23 @@ a{
   text-decoration: none;
   color: #222;
 }
+
+/* 面包屑区域 */
+#contWrapper{
+  background-color: rgb(245, 245, 245);
+  /* background-color: red; */
+
+}
+.breadCrumbs::before{
+  content: '你现在的位置：';
+}
+.breadCrumbs{
+  padding: 10px 0;
+  font-size: 12px;
+}
+.breadCrumbs>a{
+  color: #7f7f7f;
+}
+.breadCrumbs>i{
+  margin: 0 10px;
+}
