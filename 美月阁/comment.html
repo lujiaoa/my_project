@@ -6,15 +6,251 @@
   <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/com.css">
   <link rel="stylesheet" href="./css/comment.css">
+  <script src="./js/ajax.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/footer.js"></script>
   <title>口碑</title>
 </head>
 <body>
-  <div id="matterWrapper">
+  <header id="Header"></header>
+  <div id="contWrapper">
     <div class="breadCrumbs w">
       <a href="javascript:;">首页</a>
       <i class="fa fa-angle-right" aria-hidden="true"></i>
       <a href="javascript:;">全部产品评价</a>
     </div>
+    <!-- 内容区域，左右俩部分 -->
+    <div class="matterWrapper w clearfix">
+      <!-- 左边区域 -->
+      <div class="matterL">
+        <ul>
+          <li class="clearfix">
+            <div>
+              <a href="javascript:;">
+                <img src="./images/dfda560f6d7a008076a5171390c5e666.jpg" alt="">
+              </a>
+            </div>
+            <div class="matData">
+              <h2><a href="javascript:;">雷曼止汗露 雷曼去狐臭腋下止汗露除腋臭女持久汗味根体臭液男士专用喷雾正品</a></h2>
+              <p>参考价格: <span>￥:177.00</span></p>
+              <p>坚持用有效果，量很少，也能用很多次</p>
+              <div>
+                <a href="javascript:;" target="_blank">
+                  <i class="fa fa-list-ul" aria-hidden="true"></i>
+                  详情
+                </a>
+                <span>
+                  *哦**哭
+                  发表于 2020-08-06
+                </span>
+              </div>
+            </div>
+            <a href="javascript:;">
+              <i class="fa fa-comments fa-lg" aria-hidden="true"></i>
+              <b>0</b>
+              篇点评
+            </a>
+          </li>
+          <li class="clearfix">
+            <div>
+              <a href="javascript:;">
+                <img src="./images/dfda560f6d7a008076a5171390c5e666.jpg" alt="">
+              </a>
+            </div>
+            <div class="matData">
+              <h2><a href="javascript:;">雷曼止汗露 雷曼去狐臭腋下止汗露除腋臭女持久汗味根体臭液男士专用喷雾正品</a></h2>
+              <p>参考价格: <span>￥:177.00</span></p>
+              <p>坚持用有效果，量很少，也能用很多次</p>
+              <div>
+                <a href="javascript:;" target="_blank">
+                  <i class="fa fa-list-ul" aria-hidden="true"></i>
+                  详情
+                </a>
+                <span>
+                  *哦**哭
+                  发表于 2020-08-06
+                </span>
+              </div>
+            </div>
+            <a href="javascript:;">
+              <i class="fa fa-comments fa-lg" aria-hidden="true"></i>
+              <b>0</b>
+              篇点评
+            </a>
+          </li>
+        </ul>
+        <!-- 分页器 -->
+        <div class="page clearfix">
+          <a href="javascript:;" class="upDown">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            上一页
+          </a>
+          <ul class="pageNumber clearfix">
+            <li><a href="javascript:;">1</a></li>
+            <li><a href="javascript:;">2</a></li>
+            <li><a href="javascript:;">3</a></li>
+            <li><a href="javascript:;">4</a></li>
+            <li><a href="javascript:;">5</a></li>
+            <li><a href="javascript:;">6</a></li>
+          </ul>
+          <a href="javascript:;" class="upDown">
+            <i class="fa fa-angle-right" aria-hidden="true"></i> 
+            下一页
+          </a>
+          <span>共1600页</span>
+          <input type="text" class="pageInp" value="1">
+          <input type="button" value="确定" id="pageBtn">
+        </div>
+      </div>
+      <!-- 右边区域 -->
+      <div class="matterR">
+        <div class="comRank">
+          <h2 class="title">
+            <span>本周排行榜</span>
+          </h2>
+          <ul>
+            <li class="clearfix">
+              <div class="matRl">
+                <a href="javascript:;">
+                  <img src="./images/2682b17ccd413a5f952c1adcae4987c0.jpg" alt="">
+                </a>
+              </div>
+              <div class="matRr">
+                <h3>
+                  <a href="javascript:;" target="_bank">佰草世家面膜补水保湿美白提亮肤</a>
+                </h3>
+                <p>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="matRl">
+                <a href="javascript:;">
+                  <img src="./images/2682b17ccd413a5f952c1adcae4987c0.jpg" alt="">
+                </a>
+              </div>
+              <div class="matRr">
+                <h3>
+                  <a href="javascript:;" target="_bank">佰草世家面膜补水保湿美白提亮肤</a>
+                </h3>
+                <p>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="matRl">
+                <a href="javascript:;">
+                  <img src="./images/2682b17ccd413a5f952c1adcae4987c0.jpg" alt="">
+                </a>
+              </div>
+              <div class="matRr">
+                <h3>
+                  <a href="javascript:;" target="_bank">佰草世家面膜补水保湿美白提亮肤</a>
+                </h3>
+                <p>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="matRl">
+                <a href="javascript:;">
+                  <img src="./images/2682b17ccd413a5f952c1adcae4987c0.jpg" alt="">
+                </a>
+              </div>
+              <div class="matRr">
+                <h3>
+                  <a href="javascript:;" target="_bank">佰草世家面膜补水保湿美白提亮肤</a>
+                </h3>
+                <p>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="matRl">
+                <a href="javascript:;">
+                  <img src="./images/2682b17ccd413a5f952c1adcae4987c0.jpg" alt="">
+                </a>
+              </div>
+              <div class="matRr">
+                <h3>
+                  <a href="javascript:;" target="_bank">佰草世家面膜补水保湿美白提亮肤</a>
+                </h3>
+                <p>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <div class="matRl">
+                <a href="javascript:;">
+                  <img src="./images/2682b17ccd413a5f952c1adcae4987c0.jpg" alt="">
+                </a>
+              </div>
+              <div class="matRr">
+                <h3>
+                  <a href="javascript:;" target="_bank">佰草世家面膜补水保湿美白提亮肤</a>
+                </h3>
+                <p>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- 右边下边的区域 -->
+        <div class="remark">
+          <h2 class="title">
+            <span>精彩点评</span>
+          </h2>
+          <ul>
+            <li class="remarkData">
+              <a href="javascript:;">
+                <img src="./images/dfda560f6d7a008076a5171390c5e666.jpg" alt="">
+                <span>*哦**哭</span>对 <span>雷曼去狐臭腋下止</span>评论说
+              </a>
+              <div>
+                坚持用有效果，量很少，也能用很多次
+              </div>
+              <p>2020-08-06</p>
+            </li>
+            <li class="remarkData">
+              <a href="javascript:;">
+                <img src="./images/dfda560f6d7a008076a5171390c5e666.jpg" alt="">
+                <span>*哦**哭</span>对 <span>雷曼去狐臭腋下止</span>评论说
+              </a>
+              <div>
+                坚持用有效果，量很少，也能用很多次
+              </div>
+              <p>2020-08-06</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
   </div>
+  <footer id="Footer"></footer>
 </body>
 </html>
