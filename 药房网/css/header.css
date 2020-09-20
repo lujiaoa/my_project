@@ -1,0 +1,12 @@
+.head_top_wrapper{
+  height: 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.head_top>ul.left{
+  float: left;
+  line-height: 41px;
+  list-style: none;
+}
+.head_top>li{
+  float: left;
+}
